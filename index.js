@@ -13,7 +13,7 @@ const facts = ["He was the last Beatle to learn to drive",
 
 function johnLennonFacts(facts){
   var newFacts = [];
-    let i = 0;
+    var i = 0;
     while (i < facts.length) {
         newFacts.push(`${facts[i]}!!!`);
         i++;
